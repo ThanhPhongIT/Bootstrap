@@ -6,6 +6,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="format.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
@@ -17,45 +18,71 @@
     <div class="container p-3 my-3 bg-primary text-white">
         <h2 class="display-1">Chào các<small> bạn</small> </h2>
     </div>
+    <ul class="pagination pagination-sm container">
+        <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#finish">2</a></li>
+        <li class="page-item"><a class="page-link" href="#finish">3</a></li>
+        <li class="page-item"><a class="page-link" href="#finish">Next</a></li>
+      </ul>
     <img class="img-fluid p-4 mx-auto d-block rounded-circle" src="https://i.pinimg.com/236x/9d/65/ae/9d65aecc033dadd76d8556ae07cf24e9.jpg"/>
 
     <div class="container border ">
         <h2>Đây là <abbr title="đây là con chó">container</abbr> có border</h2>
     </div>
-    <div class="row">
-        <div class="col-md-3">
-            <h1>My first Web Bootstrap</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
-        </div>
-        <div class="col-md-3">
-            <h1>My first Web Bootstrap</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
-        </div>
-        <div class="col-md-3">
-            <h1>My first Web Bootstrap</h1>
-            <blockquote class="blockqoute">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
-                <footer class="blockquote-footer">From WWF's website</footer>
-            </blockquote>
-        </div>
-        <div class="col-md-3">
-            <h1>My first Web Boostrap</h1>
-            
-            <blockquote class="blockqoute">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
-                <footer class="blockquote-footer">From WWF's website</footer>
-            </blockquote>
-        </div>
-    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1>My first Web Bootstrap</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>My first Web Bootstrap</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
+                </div>
+                <div class="col-md-3">
+                    <h1>My first Web Bootstrap</h1>
+                    <blockquote class="blockqoute">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
+                        <footer class="blockquote-footer">From WWF's website</footer>
+                    </blockquote>
+                </div>
+                <div class="col-md-3">
+                    <h1>My first Web Boostrap</h1>
+                    <blockquote class="blockqoute">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
+                        <footer class="blockquote-footer">From WWF's website</footer>
+                    </blockquote>
+                </div>
+            </div>
     <dl>
         <dt>Coffe</dt>
         <dd>-black hot drink</dd><code>div</code>
     </dl>
-    <kbd>KBD</kbd>
+    <kbd>KDB</kbd>
+    <div class="btn-group my-3">
+        <button class="btn btn-success">Apple</button>
+        <button class="btn btn-success">SamSung</button>
+        <button class="btn btn-success">Sony</button>
+    </div>
+    <span class="badge badge-pill badge-success">Success</span>
     <pre class="font-weight-light">phong
         phong
         phong anh    phong   anh   anh  phong
     </pre>
+    <ul class="list-group">
+        <li class="list-group-item active">First item</li>
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+            Inbox
+            <span class="badge badge-primary badge-pill">12</span>
+          </li>
+        <li class="list-group-item">Third item</li>
+    </ul>
+    <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item-success list-group-item disabled list-group-item-action">4</a>
+        <a href="#" class="list-group-item list-group-item-action">5</a>
+        <a href="#" class="list-group-item list-group-item-action">6</a>
+    </div>
     <div class="table-reponsive">
     <table class="table-borderless table-responsive table-hover table-sm">
         <thead class="thead-dark">
@@ -86,37 +113,80 @@
     </div>
       </div>
     </div>
-    <img class="img-thumbnail img-fluid mx-auto d-block" src="https://zicxa.com/hinh-anh/wp-content/uploads/2019/06/H%C3%ACnh-%E1%BA%A3nh-c%C3%BAn-con-d%E1%BB%85-th%C6%B0%C6%A1ng-cute-l%C3%A0m-h%C3%ACnh-n%E1%BB%81n-%C4%91%E1%BA%B9p-12.jpg" />
+    <div class="card container" id="card">
+        <img src="https://i.pinimg.com/236x/9d/65/ae/9d65aecc033dadd76d8556ae07cf24e9.jpg" alt="anhhoso" class="card-img-top hoso">
+        <div class="card-img-overlay">
+            <h4 class="card-title">Mồn lèo</h4>
+            <p class="card-text">Con mèo ngáo</p>
+            <a href="#" class="btn btn-primary stretched-link">Xem hồ sơ</a>
+        </div>
+
+    </div>
+    <img id="thumnail" class="img-thumbnail img-fluid mx-auto d-block" src="https://zicxa.com/hinh-anh/wp-content/uploads/2019/06/H%C3%ACnh-%E1%BA%A3nh-c%C3%BAn-con-d%E1%BB%85-th%C6%B0%C6%A1ng-cute-l%C3%A0m-h%C3%ACnh-n%E1%BB%81n-%C4%91%E1%BA%B9p-12.jpg" />
     <div class="jumbotron jumbotron-fluid container">
         <h1>Bootstrap Tutorial</h1>
         <p>Bootstrap is the most popular HTML, CSS...</p>
     </div>
-    <div class="alert alert-success alert-dismissible fade show">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <a href="#">cảnh báo</a>
-    </div>
-   
-    <button type="button" class="btn disabled btn-block btn-sm btn-primary"> 
-        <span class="btn spinner-border spinner-border-sm "></span>Button sơ cấp</button>
-    <div class="btn-group">
-        <button class="btn btn-success">Apple</button>
-        <div class="btn-group">
-            <button class="btn btn-success">SamSung</button>
-            <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown">
-                <span class="caret"></span>
-              </button>
+    <div class="container">
+        <div class="progress my-5">
+            <div class="progess-bar bg-primary progress-bar-striped progress-bar-animated" style="width:80%;height:20px">80%</div>
+        </div>
+        <div class="alert alert-success alert-dismissible fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+                <a href="#">cảnh báo</a>
+        </div>
+        <div class="drop-menu p-3">
+            <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" type="button">
+                Dropdown
+            </button>
             <div class="dropdown-menu">
-                <a href="#" class="dropdown-item">Phong</a>
-                <a href="#" class="dropdown-item">Phong</a>
-                <a href="#" class="dropdown-item">Phong</a>
+                <a href="#" class="dropdown-item">Link</a>
+                <a href="#" class="dropdown-item">Link</a>
+                <div class="dropdown-divider"></div>
+                <a href="#" class="dropdown-item">Link</a>
             </div>
         </div>
-        <button class="btn btn-success">Sony</button>
+        <div class="card-columns">
+            <div class="card bg-primary">
+              <div class="card-body text-center">
+                <p class="card-text">Phong1</p>
+              </div>
+            </div>
+            <div class="card bg-warning">
+              <div class="card-body text-center">
+                <p class="card-text">Phong2</p>
+              </div>
+            </div>
+            <div class="card bg-success">
+              <div class="card-body text-center">
+                <p class="card-text">Phong3</p>
+              </div>
+            </div>
+            <div class="card bg-danger">
+              <div class="card-body text-center">
+                <p class="card-text">Phong</p>
+              </div>
+            </div>
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <p class="card-text">Phong</p>
+              </div>
+            </div>
+            <div class="card bg-info">
+              <div class="card-body text-center">
+                <p class="card-text">Phong</p>
+              </div>
+            </div>
+          </div>
+        <ul class="pagination pagination-sm">
+            <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
     </div>
-    <div class="progress">
-        <div class="progess-bar bg-primary progress-bar-striped progress-bar-animated" style="width:80%;height:20px">80%</div>
-    </div>
-    <span class="badge badge-pill badge-success">Success</span>
-    
+    <div id="finish"></div>
+</div>
 </body>
 </html>
