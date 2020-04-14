@@ -1,12 +1,27 @@
-#thumnail{
+body {
+    background-color: rgb(238, 206, 206);
+}
+
+#thumnail {
     max-width: 300px;
     max-height: 400px;
 }
-.hoso{
+
+#top {
+    background-color: aqua;
+    color: rgb(94, 0, 201);
+}
+
+#hello {
+    color: rgb(245, 231, 32);
+}
+
+.hoso {
     width: 200px;
     height: 200px;
 }
-#card{
+
+#card {
     width: 230px;
     text-align: center;
 }
