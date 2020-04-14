@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -10,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container-lg pt-3 bg-dark text-white">
         <h1>My first Web Bootstrap</h1>
@@ -18,100 +20,147 @@
     <div class="container p-3 my-3 bg-primary text-white">
         <h2 class="display-1">Chào các<small> bạn</small> </h2>
     </div>
-    <ul class="pagination pagination-sm container">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li>
+                    <form action="" class="form-inline float-right">
+                        <input type="text" class="form-control mr-sm-2" type="text" placeholder="
+                        Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <ul class="pagination pagination-sm container my-3">
         <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
         <li class="page-item active"><a class="page-link" href="#">1</a></li>
         <li class="page-item"><a class="page-link" href="#finish">2</a></li>
         <li class="page-item"><a class="page-link" href="#finish">3</a></li>
         <li class="page-item"><a class="page-link" href="#finish">Next</a></li>
-      </ul>
-    <img class="img-fluid p-4 mx-auto d-block rounded-circle" src="https://i.pinimg.com/236x/9d/65/ae/9d65aecc033dadd76d8556ae07cf24e9.jpg"/>
+    </ul>
+    <img class="img-fluid p-4 mx-auto d-block rounded-circle" src="https://i.pinimg.com/236x/9d/65/ae/9d65aecc033dadd76d8556ae07cf24e9.jpg" />
 
     <div class="container border ">
         <h2>Đây là <abbr title="đây là con chó">container</abbr> có border</h2>
     </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h1>My first Web Bootstrap</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
-                </div>
-                <div class="col-md-3">
-                    <h1>My first Web Bootstrap</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
-                </div>
-                <div class="col-md-3">
-                    <h1>My first Web Bootstrap</h1>
-                    <blockquote class="blockqoute">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
-                        <footer class="blockquote-footer">From WWF's website</footer>
-                    </blockquote>
-                </div>
-                <div class="col-md-3">
-                    <h1>My first Web Boostrap</h1>
-                    <blockquote class="blockqoute">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
-                        <footer class="blockquote-footer">From WWF's website</footer>
-                    </blockquote>
-                </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <h1>My first Web Bootstrap</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
             </div>
-    <dl>
-        <dt>Coffe</dt>
-        <dd>-black hot drink</dd><code>div</code>
-    </dl>
-    <kbd>KDB</kbd>
-    <div class="btn-group my-3">
-        <button class="btn btn-success">Apple</button>
-        <button class="btn btn-success">SamSung</button>
-        <button class="btn btn-success">Sony</button>
-    </div>
-    <span class="badge badge-pill badge-success">Success</span>
-    <pre class="font-weight-light">phong
+            <div class="col-md-5">
+                <h1>My first Web Bootstrap</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
+            </div>
+            <div class="col-md-5">
+                <h1>My first Web Bootstrap</h1>
+                <blockquote class="blockqoute">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
+                    <footer class="blockquote-footer">From WWF's website</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-5">
+                <h1>My first Web Boostrap</h1>
+                <blockquote class="blockqoute">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati dolore placeat expedita ratione ipsa? Molestiae libero reiciendis, ab esse corporis facilis quaerat eligendi? Eos nemo iusto libero quasi commodi dolore?</p>
+                    <footer class="blockquote-footer">From WWF's website</footer>
+                </blockquote>
+            </div>
+        </div>
+        <dl>
+            <dt>Coffe</dt>
+            <dd>-black hot drink</dd><code>div</code>
+        </dl>
+        <kbd>KDB</kbd>
+        <div class="btn-group my-3">
+            <button class="btn btn-success">Apple</button>
+            <button class="btn btn-success">SamSung</button>
+            <button class="btn btn-success">Sony</button>
+        </div>
+        <span class="badge badge-pill badge-success">Success</span>
+        <pre class="font-weight-light">phong
         phong
         phong anh    phong   anh   anh  phong
-    </pre>
-    <ul class="list-group">
-        <li class="list-group-item active">First item</li>
-        <li class="list-group-item d-flex justify-content-between align-items-center">
-            Inbox
-            <span class="badge badge-primary badge-pill">12</span>
-          </li>
-        <li class="list-group-item">Third item</li>
-    </ul>
-    <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item-success list-group-item disabled list-group-item-action">4</a>
-        <a href="#" class="list-group-item list-group-item-action">5</a>
-        <a href="#" class="list-group-item list-group-item-action">6</a>
+        </pre>
+        <ul class="nav flex-column nav-pills">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+            </li>
+        </ul>
+        <ul class="list-group">
+            <li class="list-group-item active">First item</li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Inbox
+                <span class="badge badge-primary badge-pill">12</span>
+            </li>
+            <li class="list-group-item">Third item</li>
+        </ul>
+        <div class="list-group list-group-flush">
+            <a href="#" class="list-group-item-success list-group-item disabled list-group-item-action">4</a>
+            <a href="#" class="list-group-item list-group-item-action">5</a>
+            <a href="#" class="list-group-item list-group-item-action">6</a>
+        </div>
+        <div class="table-reponsive">
+            <table class="table-borderless table-responsive table-hover table-sm">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="table-primary">
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>john@example.com</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td>Mary</td>
+                        <td>Moe</td>
+                        <td>mary@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>Dooley</td>
+                        <td>july@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-    <div class="table-reponsive">
-    <table class="table-borderless table-responsive table-hover table-sm">
-        <thead class="thead-dark">
-          <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Email</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="table-primary">
-            <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
-          </tr>
-          <tr class="table-success">
-            <td>Mary</td>
-            <td>Moe</td>
-            <td>mary@example.com</td>
-          </tr>
-          <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td>july@example.com</td>
-          </tr>
-        </tbody>
-    </table>
-    </div>
-      </div>
     </div>
     <div class="card container" id="card">
         <img src="https://i.pinimg.com/236x/9d/65/ae/9d65aecc033dadd76d8556ae07cf24e9.jpg" alt="anhhoso" class="card-img-top hoso">
@@ -133,7 +182,7 @@
         </div>
         <div class="alert alert-success alert-dismissible fade show">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
-                <a href="#">cảnh báo</a>
+            <a href="#">cảnh báo</a>
         </div>
         <div class="drop-menu p-3">
             <button class="btn btn-success dropdown-toggle" data-toggle="dropdown" type="button">
@@ -146,47 +195,80 @@
                 <a href="#" class="dropdown-item">Link</a>
             </div>
         </div>
+        <button class="btn-primary btn my-3" data-toggle="collapse" data-target="#demo">Collapsible</button>
+        <div id="demo" class="collapse">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum adipisci maiores accusantium incidunt soluta veritatis reiciendis quidem, delectus in quibusdam perspiciatis quaerat quia temporibus, mollitia, ea optio odit molestiae doloremque.
+        </div>
         <div class="card-columns">
             <div class="card bg-primary">
-              <div class="card-body text-center">
-                <p class="card-text">Phong1</p>
-              </div>
+                <div class="card-body text-center">
+                    <p class="card-text">Phong1</p>
+                </div>
             </div>
             <div class="card bg-warning">
-              <div class="card-body text-center">
-                <p class="card-text">Phong2</p>
-              </div>
+                <div class="card-body text-center">
+                    <p class="card-text">Phong2</p>
+                </div>
             </div>
             <div class="card bg-success">
-              <div class="card-body text-center">
-                <p class="card-text">Phong3</p>
-              </div>
+                <div class="card-body text-center">
+                    <p class="card-text">Phong3</p>
+                </div>
             </div>
             <div class="card bg-danger">
-              <div class="card-body text-center">
-                <p class="card-text">Phong</p>
-              </div>
+                <div class="card-body text-center">
+                    <p class="card-text">Phong</p>
+                </div>
             </div>
             <div class="card bg-light">
-              <div class="card-body text-center">
-                <p class="card-text">Phong</p>
-              </div>
+                <div class="card-body text-center">
+                    <p class="card-text">Phong</p>
+                </div>
             </div>
             <div class="card bg-info">
-              <div class="card-body text-center">
-                <p class="card-text">Phong</p>
-              </div>
+                <div class="card-body text-center">
+                    <p class="card-text">Phong</p>
+                </div>
             </div>
-          </div>
+        </div>
         <ul class="pagination pagination-sm">
             <li class="page-item disabled"><a class="page-link" href="#">Previous</a></li>
             <li class="page-item active"><a class="page-link" href="#">1</a></li>
             <li class="page-item"><a class="page-link" href="#">2</a></li>
             <li class="page-item"><a class="page-link" href="#">3</a></li>
             <li class="page-item"><a class="page-link" href="#">Next</a></li>
-            </ul>
+        </ul>
+    </div>
+    <ul class="nav nav-pills container">
+        <li class="nav-item">
+            <a href="#home" class="nav-link" data-toggle="pill">Menu</a>
+            <a href="#menu1" class="nav-link" data-toggle="pill">Menu</a>
+            <a href="#menu2" class="nav-link" data-toggle="pill">Menu</a>
+        </li>
+    </ul>
+    <div class="tab-content container">
+        <div class="tab-pane container active" id="home">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illum magni beatae cupiditate molestias culpa odit possimus dignissimos nisi, ex ab nobis sapiente? Molestiae dicta a animi, sequi vero itaque.</div>
+        <div class="tab-pane container fade" id="menu1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illum magni beatae cupiditate molestias culpa odit possimus dignissimos nisi, ex ab nobis sapiente? Molestiae dicta a animi, sequi vero itaque.</div>
+        <div class="tab-pane container fade" id="menu2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illum magni beatae cupiditate molestias culpa odit possimus dignissimos nisi, ex ab nobis sapiente? Molestiae dicta a animi, sequi vero itaque.</div>
     </div>
     <div id="finish"></div>
-</div>
+    </div>
 </body>
+<style>
+    #thumnail {
+        max-width: 300px;
+        max-height: 400px;
+    }
+    
+    .hoso {
+        width: 200px;
+        height: 200px;
+    }
+    
+    #card {
+        width: 230px;
+        text-align: center;
+    }
+</style>
+
 </html>
