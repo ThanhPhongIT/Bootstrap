@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(238, 206, 206);
+    background-color: #99B433;
 }
 
 #thumnail {
@@ -8,8 +8,8 @@ body {
 }
 
 #top {
-    background-color: aqua;
-    color: rgb(94, 0, 201);
+    background-color: #9f00a7;
+    color: #FFC40D;
 }
 
 #hello {
