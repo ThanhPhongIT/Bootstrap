@@ -25,3 +25,8 @@ body {
     width: 230px;
     text-align: center;
 }
+
+.carousel-item img {
+    height: 300px;
+    width: 1200px;
+}
